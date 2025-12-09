@@ -1,0 +1,8 @@
+:root {
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: system-ui, Helvetica, Arial, sans-serif, Bread;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

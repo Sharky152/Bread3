@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Poppins";
+  /* Путь к EOT-файлу шрифта для IE и старых версий Edge */
+  src: url("Poppins-Regular.eot");
+  /* Локальные имена шрифта для оптимизации загрузки */
+  src: local("Poppins-Medium"), local("Poppins-Medium"),
+    /* Путь к EOT-файлу для IE с фиксом */
+      url("../fonts/Poppins/Poppins-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/Poppins/Poppins-Regular.woff") format("woff"),
+    url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  /* Путь к EOT-файлу шрифта для IE и старых версий Edge */
+  src: url("Poppins-Medium.eot");
+  /* Локальные имена шрифта для оптимизации загрузки */
+  src: local("Poppins-Medium"), local("Poppins-Medium"),
+    /* Путь к EOT-файлу для IE с фиксом */
+      url("../fonts/Poppins/Poppins-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
+    url("../fonts/Poppins/Poppins-Medium.woff") format("woff"),
+    url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  /* Путь к EOT-файлу шрифта для IE и старых версий Edge */
+  src: url("Inter-Regular.eot");
+  /* Локальные имена шрифта для оптимизации загрузки */
+  src: local("Inter-Regular"), local("Inter-Regular"),
+    /* Путь к EOT-файлу для IE с фиксом */
+      url("../fonts/Inter/Inter-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Inter/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Regular.woff") format("woff"),
+    url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  /* Путь к EOT-файлу шрифта для IE и старых версий Edge */
+  src: url("Inter-Medium.eot");
+  /* Локальные имена шрифта для оптимизации загрузки */
+  src: local("Inter-Medium"), local("Inter-Medium"),
+    /* Путь к EOT-файлу для IE с фиксом */
+      url("../fonts/Inter/Inter-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Inter/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Medium.woff") format("woff"),
+    url("../fonts/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  /* Путь к EOT-файлу шрифта для IE и старых версий Edge */
+  src: url("Inter-Bold.eot");
+  /* Локальные имена шрифта для оптимизации загрузки */
+  src: local("Inter-Bold"), local("Inter-Bold"),
+    /* Путь к EOT-файлу для IE с фиксом */
+      url("../fonts/Inter/Inter-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Inter/Inter-Bold.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Bold.woff") format("woff"),
+    url("../fonts/Inter/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bread";
+  /*Путь к фаилу с шрифтом*/
+  src: url("/assets/fonts/Heart\ Breaking\ Bad.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}

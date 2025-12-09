@@ -1,0 +1,87 @@
+.header {
+  background-image: url(/assets/header/header1.png);
+  image-rendering: auto;
+  box-shadow: rgb(0, 0, 0) 0px 0px 10px 0px;
+  font-size: 25px;
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.headerinformation {
+  background-color: rgba(5, 54, 1, 0.623);
+  display: center;
+  font-size: 100%;
+  font-family: bread;
+  width: 100%;
+  padding: 5%;
+}
+
+.headerlogo {
+  display: flex;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 20%;
+}
+
+button {
+  background-color: rgba(9, 110, 0, 0);
+  border: 12px;
+}
+
+.headerinfo__icon {
+  background-color: rgba(5, 54, 1, 0.623);
+  width: 250px;
+  height: 100px;
+  display: center;
+  padding: 4%;
+}
+
+.header-nav {
+  display: inline;
+  font-size: 25px;
+  gap: 50%;
+  max-width: 100%;
+  padding: 2%;
+}
+.headerlink {
+  font-family: "bread";
+  color: #fff;
+  padding: 10px;
+}
+.header-link a {
+  font-size: 100px;
+}
+.header-container__icon {
+  gap: 6px;
+  position: left;
+}
+
+/* корзина товаров */
+#basket {
+  position: relative;
+}
+
+#basket:hover span {
+  background-color: #ffffff;
+}
+
+/* кнопки иконки */
+.headericon {
+  background-color: rgba(5, 54, 1, 0.623);
+  width: 250px;
+  height: 100px;
+  display: center;
+  padding: 4%;
+}
+
+.headericon:hover,
+.headerlink:hover,
+.headericon-img:hover {
+  color: #53aa02;
+}
+
+.counter:hover {
+  background-color: #ffffff;
+  color: #fff;
+}
