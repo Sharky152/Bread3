@@ -22,6 +22,42 @@ function Home() {
             </video>
           </nav>
         </nav>
+
+        <nav className={styles.Container_Briefly} id="Description">
+          <nav className={styles.invisible2}>
+            <nav className={styles.Description} id="1">
+              <h1>Крафтовая пекарня Breaking Bread</h1>
+              <h2>
+                Добро пожаловать в Breaking Bread. Место, где выпечка кристально
+                чиста, а вкусы взрывоопасны. Наши круассаны взрывают вкусовые
+                рецепторы, а Синие кексы не отпускают. Заходите — у нас всё
+                по‑честному… и очень вкусно.
+              </h2>
+            </nav>
+          </nav>
+        </nav>
+        <nav className={styles.cards_products} id="2">
+          <button href="Shop" className={styles.bread}>
+            <nav className={styles.card}>
+              <h1>Хлеб</h1>
+            </nav>
+          </button>
+          <button href="Shop" className={styles.desserts}>
+            <nav className={styles.card}>
+              <h1>Десерты</h1>
+            </nav>
+          </button>
+          <button href="Shop" className={styles.cakes}>
+            <nav className={styles.card}>
+              <h1>Торты</h1>
+            </nav>
+          </button>
+          <button href="Shop" className={styles.drinks}>
+            <nav className={styles.card}>
+              <h1>Напитки</h1>
+            </nav>
+          </button>
+        </nav>
       </main>
       <Footer />
     </>

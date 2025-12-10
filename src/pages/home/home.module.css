@@ -1,5 +1,142 @@
 /*Контейнер приветствия*/
 .container_welcom {
+  height: auto;
+  width: auto;
+}
+/* Контейнер с видео*/
+.container_description {
+  width: 100%;
+  z-index: 1;
+}
+.container_description video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Заполняем контейнер, сохраняя пропорции */
+  z-index: 1; /* Видео на заднем плане */
+}
+.invisible {
+  padding-top: 13%;
+  width: 100%;
+  height: 103%;
+  z-index: 2;
+}
+.overlaw {
+  width: 100%;
+  font-family: "bread";
+  top: 0;
+  display: center;
+  position: sticky;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  z-index: 2; /* Текст поверх видео */
+}
+.overlaw h1 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 600px;
+  font-size: 60px;
+}
+.overlaw h2 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 600px;
+  font-size: 40px;
+}
+/*Положение видео в контейнере*/
+
+.invisible2 {
+  image-rendering: auto;
+  padding-top: 10%;
+  width: 100%;
+  height: 70%;
+  z-index: 4;
+}
+.Description {
+  padding: 3%;
+  width: 50%;
+  height: auto;
+  font-family: "Times";
+  top: 50%;
+  position: sticky;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  z-index: 2; /* Текст поверх видео */
+}
+.Container_Briefly {
+  padding-top: 5%;
+  background-image: url(/src/pages/home/ber1.png);
+  image-rendering: auto;
+  background-size: 100%;
+  display: center;
+  position: center;
+  width: 100%;
+  height: 1000px;
+
+  z-index: 2;
+}
+.cards_products {
+  width: 100%;
+  height: 100%;
+}
+.Description h1 {
+  font-family: "bread";
+}
+.cards {
+  width: 100%;
+  display: block;
+  box-shadow: #000;
+}
+.bread {
+  background-image: url(/src/pages/home/bread.png);
+  image-rendering: auto;
+  width: 25%;
+  height: 900px;
+
+  /* Добавил тени для эффекта карточки */
+}
+.desserts {
+  background-image: url(/src/pages/home/cupcake.png);
+  image-rendering: auto;
+  width: 25%;
+  height: 900px;
+
+  /* Добавил тени для эффекта карточки */
+}
+.cakes {
+  background-image: url(/src/pages/home/Cake.png);
+  image-rendering: auto;
+  width: 25%;
+  height: 900px;
+
+  /* Добавил тени для эффекта карточки */
+}
+.drinks {
+  background-image: url(/src/pages/home/lemonade.png);
+  image-rendering: auto;
+  width: 25%;
+  height: 900px;
+
+  /* Добавил тени для эффекта карточки */
+}
+.cards:hover,
+.cakes:hover,
+.desserts:hover,
+.bread:hover,
+.drinks:hover {
+  color: #53aa02;
+}
+
+/*Контейнер приветствия*/
+.container_welcom {
   display: center;
   position: center;
   display: flex;

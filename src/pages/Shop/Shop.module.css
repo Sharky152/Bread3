@@ -1,0 +1,34 @@
+.Shop_body {
+  background-image: url(./Shop_body1.png);
+  image-rendering: auto;
+  height: 1000px;
+  background-position: center; /* центрирование */
+  background-repeat: no-repeat; /* запрет повтора */
+  background-size: cover; /* заполнение контейнера с сохранением пропорций */
+  background-attachment: fixed;
+
+  /* Десктопы и планшеты (≥ 1200 px) */
+  @media (min-width: 1200px) {
+    .element {
+      background-image: url("Shop_body1.png");
+    }
+  }
+
+  /* Планшеты (768–1199 px) */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .element {
+      background-image: url("Shop_body1.png");
+    }
+  }
+
+  /* Мобильные (≤ 767 px) */
+  @media (max-width: 767px) {
+    .element {
+      background-image: url("Shop_body1.png");
+    }
+  }
+}
+.Body_color {
+  background-color: rgba(5, 54, 1, 0.623);
+  height: 100%;
+}

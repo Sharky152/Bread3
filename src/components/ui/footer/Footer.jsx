@@ -8,7 +8,7 @@ export const Footer = () => {
         <nav className={styles.footer_information}>
           <nav className={styles.footer_top}>
             <nav className={styles.footer_top_navigation}>
-              <a className={styles.footer_link}>
+              <a href="/" className={styles.footer_link}>
                 <span>G</span>лавная
               </a>
               <a className={styles.footer_link}>
